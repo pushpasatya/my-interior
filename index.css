@@ -1,0 +1,94 @@
+
+ul ,li{
+    text-align: right; 
+    
+
+}
+.Pushpa{
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+    background-color: black;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.footer .language-btn{
+   background-color: #333;
+   text-align: center;
+   color: #fff;
+   border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.copyright-txt{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.bg2{
+    background-image: url(assists/pushpa.jpg);
+    
+    background-size: cover;
+    height: 100vh;
+    animation-name: example;
+    animation-duration: 8s;
+    
+}
+.dark{
+    width: cover;
+    height: 100vh;
+    background-color: rgba(26, 25, 25, 0.377);
+}
+.bg3{
+    background-image: url(assists/satya.jpg);
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.card img{
+   border-radius: 6px;
+   border-style: white;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #0000006e;
+    text-align: center;
+  }
+@keyframes example {
+    0%   {background-image: url(assists/1111);}
+    25%  {background-image: url(assists/4444.jpg);}
+    50%  {background-image : url(assists/2222.jpg)}
+    100% {background-image:url(assists/33333.jpg);}
+  }
+  
+  
